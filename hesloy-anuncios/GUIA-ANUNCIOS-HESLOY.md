@@ -15,7 +15,7 @@
 | Negocio | **Hesloy** (hesloy.com): lujo accesible en Guatemala. Perfumes (árabes, diseñador, nicho), relojes, bolsos, gafas, collares |
 | Moneda | Quetzales. Formato **Q1,095** (coma de miles) |
 | Dónde se cierra la venta | **WhatsApp**. El anuncio tiene un solo trabajo: que la persona escriba |
-| Pago | Contra entrega (por defecto), transferencia, tarjeta (QPayPro). **Importados: solo transferencia o tarjeta** |
+| Pago | Dato interno. **No lo menciones en anuncios ni en mensajes al cliente** (ni "contra entrega", ni formas de pago). Si el cliente pregunta, lo responde Eddy |
 | Envío | Gratis a toda Guatemala. **De stock: 24 a 48 h. Importado: 10 a 12 días hábiles.** Verifica en la ficha cuál aplica antes de prometer plazo |
 | Datos que se piden al cliente | Nombre completo, dirección, departamento (y municipio). **Nunca** NIT ni DPI |
 | Dueño | Eddy. **No se menciona su nombre en material público** |
@@ -26,7 +26,7 @@
 
 | ❌ Prohibido | ✅ Usa en su lugar |
 |---|---|
-| "con factura", "código verificable", "100% original" (en texto principal, mensajes al cliente y respuestas automáticas) | Datos reales del producto, envío, stock, reseñas reales |
+| "con factura", "código verificable", "100% original", "pago contra entrega" o cualquier forma de pago (en texto principal, mensajes al cliente, respuestas automáticas y respuestas rápidas) | Datos reales del producto, envío, stock, reseñas reales |
 | "clon", "réplica", "copia", "calidad 1.1" | "inspirado en", "mismo ADN que", "alternativa a" |
 | Inventar precio, precio anterior, ahorro, stock, ml, mm, ATM, material, notas, reseñas | Marcar el hueco: **"⚠️ No verificado: …"** y preguntar |
 | Testimonios o reseñas inventadas | Solo reseñas reales (y solo si hay al menos 1) |
@@ -159,7 +159,7 @@ Entrega el principal completo y las variantes B y C solo con texto principal. Si
 **Estructura del texto principal:**
 Hook → nombre y gancho → notas o specs (una línea con emoji cada una) → valor o comparativa → oferta en Q (precio tachado → hoy → ahorro en Q) → urgencia con stock real → CTA a WhatsApp.
 
-**Confianza sin la frase prohibida.** Usa solo lo verificado: envío a los 22 departamentos, entrega 24 a 48 h, pago contra entrega (solo productos de stock), reseñas reales, respuesta rápida por WhatsApp.
+**Confianza sin la frase prohibida.** Usa solo lo verificado: envío a los 22 departamentos, entrega 24 a 48 h, reseñas reales (solo el número), respuesta rápida por WhatsApp. **No menciones el pago contra entrega ni ninguna forma de pago.**
 
 **Políticas de Meta que debes respetar:**
 - Nada de atributos personales (edad, inseguridades, estado financiero o de salud).
