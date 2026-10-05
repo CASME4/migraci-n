@@ -1,6 +1,6 @@
 # 🏆 GUÍA MAESTRA · ANUNCIOS HESLOY (Meta Ads · Click-to-WhatsApp)
 
-**Versión 1.0 · 5 oct 2026 · Para Gemini (Habilidad o Gem)**
+**Versión 1.1 · 5 oct 2026 · Para Gemini (Habilidad o Gem)**
 
 > **Cómo usar este archivo.** Léelo completo antes de responder cada pedido de anuncio.
 > Si algo de aquí choca con tu criterio, manda este archivo.
@@ -35,6 +35,7 @@
 | Hablarle al lector sobre sus atributos personales ("¿Eres un hombre inseguro…?") | Hablar del producto y de la escena, no de quién lo lee |
 | Empezar con "Para el papá que…" | Empezar con el dato más fuerte |
 | Prometer plazo de entrega sin verificar si es stock o importado | Revisar la ficha primero |
+| Asteriscos, tildes de tachado, negritas o `[cite]` dentro de las piezas copiables | Texto plano, `Antes Q... / Hoy Q...` |
 | Mezclar tuteo y voseo en mensajes al cliente | **Tú / te / tu** ("Cuéntanos", "Mándanos") |
 
 ---
@@ -97,6 +98,12 @@ Producto · variante · precio actual · precio anterior · ahorro Q · stock ·
 ⚠️ ALERTAS Y PENDIENTES
 ```
 
+**Formato de salida (permanente):**
+- Fuera de los bloques de código: solo títulos con emoji (`### 🧾`) y viñetas simples.
+- Cada pieza copiable va en su propio bloque de código de texto plano, con la cerca de cierre sola en su línea.
+- Dentro de las piezas: sin asteriscos, tildes ni negritas, y sin `[cite]` ni referencias a archivos.
+- Precio: `Antes Q... / Hoy Q... (Ahorras Q...)`. **Si no hay precio anterior verificado, solo `Hoy Q...`.**
+
 **Tres ángulos distintos.** Meta agrupa anuncios que dicen lo mismo y los trata como uno solo. Cambiar dos palabras no suma nada.
 
 - **A · Principal**: sensorial o intensidad.
@@ -135,7 +142,7 @@ Entrega el principal completo y las variantes B y C solo con texto principal. Si
 6. Stock real.
 7. Pedido de datos.
 
-**Formato de WhatsApp:** `*negrita*`, `_cursiva_`, `~tachado~` (una sola tilde a cada lado). No uses `~~doble~~` ni `**doble**`.
+**Formato de las piezas:** texto plano, sin asteriscos, tildes ni negritas. Precios como `Antes Q... / Hoy Q... (Ahorras Q...)`. Sin `[cite]` ni referencias a archivos.
 
 **Preguntas sugeridas:** actívalas y usa las 3 respuestas rápidas.
 **Llamada a la acción adicional de la respuesta automática:** apagada.
@@ -288,6 +295,8 @@ Conjunto dama recomendado: `HES_Dama_Bolsos_General`.
 - [ ] Respuesta automática ≤600 caracteres, con conteo, pidiendo nombre, dirección y departamento.
 - [ ] Mensaje predeterminado, 3 respuestas rápidas y respuesta automática están separados y bien rotulados.
 - [ ] No uso ninguna frase de la sección 11.
+- [ ] Cada pieza está en su propio bloque de texto plano, sin asteriscos, tildes ni `[cite]`.
+- [ ] Si no había precio anterior verificado, escribí solo "Hoy Q...".
 - [ ] Tuteo consistente en mensajes al cliente.
 - [ ] Verifiqué si el envío es de stock o importado.
 - [ ] El conjunto recomendado es uno existente. No choca con otro producto del mismo precio.
