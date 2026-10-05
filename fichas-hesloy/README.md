@@ -12,7 +12,7 @@ El proyecto es una máquina de fichas: recibe un producto y devuelve los once ca
 
 | Pieza | Archivo | Dónde va |
 |---|---|---|
-| Instrucciones (3,106 caracteres) | [`INSTRUCCIONES-CUADERNO-FICHAS.txt`](INSTRUCCIONES-CUADERNO-FICHAS.txt) | Más → Ajustes del cuaderno → Instrucciones |
+| Instrucciones (3554 caracteres) | [`INSTRUCCIONES-CUADERNO-FICHAS.txt`](INSTRUCCIONES-CUADERNO-FICHAS.txt) | Más → Ajustes del cuaderno → Instrucciones |
 | Fuente 1 · Manual v5 | [`HESLOY_MANUAL.md`](HESLOY_MANUAL.md) | Fuentes |
 | Fuente 2 · Categorías | [`CATEGORIAS.txt`](CATEGORIAS.txt) | Fuentes |
 | Fuente 3 · Marcas | [`MARCAS.txt`](MARCAS.txt) | Fuentes |
@@ -36,7 +36,8 @@ Si Gemini rechaza `.md`, renombra a `.txt` (por ejemplo `HESLOY_MANUAL.md.txt`):
 | **Formato de cada bloque en su cerca** (`html`, `json`, texto plano) | Manual §10 | Que el HTML llegue limpio y se copie campo por campo |
 | **Conteos con margen** | Manual §14.3 | Los modelos cuentan mal de memoria; se apunta al centro del rango |
 | Se quitan los ✅ y ❌ de tres tablas (ahora "Sirve / No sirve", "Mal / Bien") | Manual §4.3, §6.4 y §8.3 | Coherencia con la regla de cero emojis (ver diseño abajo) |
-| Autochequeo de 25 a **30 puntos** | Manual §13 | Cinco puntos nuevos para Gemini |
+| **La imagen manda:** protocolo de identificación por imagen, nueva falla 20 y 3 puntos más de autochequeo | Manual §5.1, §0 y §13 | Que la ficha sea siempre del producto exacto que Eddy muestra, no de un modelo parecido |
+| Autochequeo de 25 a **33 puntos** | Manual §13 | Ocho puntos nuevos: cinco de Gemini y tres de identificación por imagen |
 | Nueva sección **14 "Trabajar en Gemini"** | Manual §14 | Archivos, pantalla, conteos, memoria del cuaderno |
 | `escapadas` aclarado como **escape de cadena JSON** | Manual §2 y §10 | Estaba ambiguo (ver sección 4) |
 | Ejemplos de aplicación de categorías | CATEGORIAS.txt | Solo aplican las reglas existentes; no agregan rutas |

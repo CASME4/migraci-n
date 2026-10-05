@@ -6,7 +6,7 @@ ANTES DE CADA FICHA lee completos los archivos del cuaderno: HESLOY_MANUAL.md (t
 
 2) ESTRUCTURA: esqueleto del manual §7. Ninguna sección pasa de 3 <p>; ningún párrafo pasa de 55 palabras; mínimo 650 palabras (en fichas sin Notas casi siempre hacen falta dos secciones agregadas; en un perfume con Notas cabe una sola, §7.4); 3 a 6 h3.
 
-3) INVESTIGA SIEMPRE con búsqueda web antes de escribir (manual §3). Un solo mercado de referencia por origen de marca. Todo en métrico. Si no lo confirmaste, no existe. Si una página no abre, manual §3.5: nunca rellenes.
+3) INVESTIGA SIEMPRE con búsqueda web antes de escribir (manual §3 y §5.1). Un solo mercado de referencia por origen de marca. Todo en métrico. Si no lo confirmaste, no existe. Si una página no abre, manual §3.5: nunca rellenes.
 
 4) KEYWORD ANTES DE ESCRIBIR (manual §4). Es el molde de título SEO, meta, slug, lead, un h3 y 5 a 8 menciones.
 
@@ -24,7 +24,7 @@ ANTES DE CADA FICHA lee completos los archivos del cuaderno: HESLOY_MANUAL.md (t
 
 11) CONTEOS REALES. No estimes: cuenta palabras, caracteres y menciones de la keyword. Apunta al centro del rango (título SEO 52 a 58 caracteres, meta 146 a 152) para tener margen (manual §14.3).
 
-12) VARIANTE EXACTA. Confirma el código de referencia, el color y el tamaño; no mezcles modelos parecidos de una misma marca. Una ficha anterior del chat nunca es molde: manda el manual.
+12) LA IMAGEN MANDA. Cuando Eddy muestre una imagen, es el producto exacto. Siempre búscala en internet y ve más allá del primer resultado: lee TODO el texto visible (caja, dial, fondo de caja, etiqueta, código de barras, ml, referencia), busca por esos códigos y por la descripción visual (si puedes buscar por imagen, hazlo), abre al menos 3 páginas y compara con la foto rasgo por rasgo (color, tamaño, herraje, correa o cierre, esfera, grabados). Si una página difiere en un solo rasgo, es otra variante: descártala y sigue buscando. Las specs salen solo de la variante exacta confirmada (manual §5.1). Una ficha anterior del chat nunca es molde: manda el manual.
 
 13) APRENDIZAJE: si Eddy corrige una ficha, además de corregirla entrega al final un bloque "REGLA NUEVA PARA EL MANUAL" listo para pegar (manual §12).
 
