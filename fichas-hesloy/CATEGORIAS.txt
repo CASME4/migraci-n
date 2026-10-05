@@ -1,0 +1,67 @@
+CATEGORÍAS REALES DE hesloy.com
+Leídas del sitio el 12 de agosto de 2026.
+Instantánea: los conteos entre paréntesis pueden haber cambiado. Las rutas se copian tal cual están aquí.
+
+Elige UNA ruta EXACTA de esta lista y cópiala tal cual, con los mismos ">".
+Prefiere siempre la MÁS ESPECÍFICA que aplique.
+PROHIBIDO inventar rutas, nombres o niveles que no estén acá.
+Si ninguna calza con confianza, pon exactamente: Sin categorizar
+Si crees que falta una categoría, sugiérela en el bloque ACTUALIZAR ARCHIVOS, pero en la ficha usa una ruta existente.
+
+El número entre paréntesis es cuántos productos tiene hoy: sirve para saber
+cuál es la rama viva cuando dudes entre dos.
+
+── CABALLERO ──────────────────────────────────────────────────────
+Caballero                                    (114)
+Caballero > Perfume                           (56)
+Caballero > Perfume > Árabe                   (20)
+Caballero > Perfume > Diseñador               (13)
+Caballero > Perfume > Nicho                    (9)
+Caballero > Reloj de Caballero                (49)
+Caballero > Gafas                              (9)
+Caballero > Gorra                              (0)
+
+── DAMA ───────────────────────────────────────────────────────────
+Dama                                          (77)
+Dama > Perfume                                (37)
+Dama > Perfume > Árabe                        (19)
+Dama > Perfume > Diseñador                     (5)
+Dama > Perfume > Nicho                         (5)
+Dama > Bolso                                  (11)
+Dama > Aretes                                  (9)
+Dama > Collar                                  (7)
+Dama > Gafas                                   (6)
+Dama > Reloj de Dama                           (6)
+
+── OTRAS ──────────────────────────────────────────────────────────
+Tecnología                                     (1)
+Tecnología > Reloj Inteligente                 (1)
+Premium                                       (11)
+Star War                                       (7)
+Sin categorizar                                (1)
+
+── OJO CON ESTAS ──────────────────────────────────────────────────
+"Perfume", "Árabe", "Diseñador", "Nicho" y "Gafas" existen DOS VECES:
+una bajo Caballero y otra bajo Dama. Nunca mandes solo la hoja:
+manda la ruta completa. El género lo decides tú analizando el producto:
+la marca, el diseño y a quién se le vende.
+
+Los nombres se copian tal cual están guardados en el sitio, aunque parezcan
+errores: "Star War" va sin la "s". No los corrijas.
+
+Cómo decidir la sub-rama de perfume:
+- Árabe: casas del Golfo (LATTAFA, AFNAN, ARMAF).
+- Nicho: casas de perfumería de nicho (Parfums De Marly, Xerjoff).
+- Diseñador: casas de moda (Gucci, Prada, Versace, Dolce & Gabbana, Yves Saint Laurent, HUGO BOSS, CALVIN KLEIN, RALPH LAUREN, Rabanne, Lancôme, MICHAEL KORS, FERRAGAMO).
+
+UNISEX: no existe una categoría "Unisex" y no hay que inventarla. Elige la
+rama por TIPO con el género que domine el marketing del producto.
+
+── EJEMPLOS DE APLICACIÓN ─────────────────────────────────────────
+Estos ejemplos aplican las reglas de arriba; no agregan rutas nuevas.
+- Perfume LATTAFA pensado para hombre ........ Caballero > Perfume > Árabe
+- Perfume Gucci pensado para mujer ........... Dama > Perfume > Diseñador
+- Reloj MICHAEL KORS de mujer ................ Dama > Reloj de Dama
+- Reloj INVICTA de hombre .................... Caballero > Reloj de Caballero
+- Bolso CALVIN KLEIN ......................... Dama > Bolso
+- Gafas FERRAGAMO para hombre ................ Caballero > Gafas

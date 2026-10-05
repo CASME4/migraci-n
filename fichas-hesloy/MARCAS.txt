@@ -1,0 +1,39 @@
+MARCAS REALES DE hesloy.com
+Leídas del sitio el 12 de agosto de 2026 · actualizado 25 sep 2026.
+
+Si la marca del producto está en esta lista, escríbela EXACTAMENTE como
+aparece: con sus puntos, sus acentos y sus mayúsculas.
+Si no está, devuelve el nombre correcto y márcala NUEVA, y agrega el
+bloque ACTUALIZAR ARCHIVOS para que Eddy decida si la crea.
+
+OJO: la lista mezcla mayúsculas y minúsculas a propósito, así están
+guardadas en el sitio. No las "corrijas": "HUGO BOSS" va en mayúsculas y
+"Parfums De Marly" no.
+
+MARCA                     | ORIGEN (mercado de referencia) | RUBRO
+AFNAN                     | Golfo                          | perfume
+ARMAF                     | Golfo                          | perfume
+CALVIN KLEIN              | EE. UU.                        | perfume, bolso, reloj
+CURREN                    | Sin origen claro               | reloj
+Dolce & Gabbana           | Europa                         | perfume
+ECLAIRE                   | Sin origen claro               | —
+FERRAGAMO                 | Europa                         | gafas, perfume
+Gucci                     | Europa                         | perfume
+HUGO BOSS                 | Europa                         | perfume
+INVICTA                   | EE. UU.                        | reloj
+Lancôme                   | Europa                         | perfume
+LATTAFA                   | Golfo                          | perfume
+MICHAEL KORS              | EE. UU.                        | bolso, reloj
+Parfums De Marly          | Nicho                          | perfume
+Prada                     | Europa                         | perfume
+Rabanne                   | Europa                         | perfume
+RALPH LAUREN              | EE. UU.                        | perfume
+Supersonic                | Sin origen claro               | —
+Swarovski                 | Europa                         | joyería
+U.S. Polo Assn.           | EE. UU.                        | reloj
+Versace                   | Europa                         | perfume
+Xerjoff                   | Nicho                          | perfume
+Yves Saint Laurent        | Europa                         | perfume
+
+── MARCAS AGREGADAS DESPUÉS ──
+(Pega aquí las líneas del bloque ACTUALIZAR ARCHIVOS cuando crees la marca en el sitio.)
