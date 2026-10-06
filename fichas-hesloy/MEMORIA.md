@@ -38,7 +38,7 @@ https://www.amazon.com/-/es/gp/product/B00962GV2E/ref=ox_sc_saved_image_7?smid=A
 Gemini respondió que no podía abrir el enlace y pidió marca, modelo, título, texto de la ficha y una imagen. **No buscó el ASIN.**
 Una búsqueda del ASIN `B00962GV2E` lo identifica, según fuentes de terceros, como un reloj **Invicta Specialty 12847** (hombre, caja de 45 mm, cuarzo, correa de silicona azul). **Esto es una pista de identificación, no una spec confirmada:** falta contrastar con la web oficial de Invicta y con la foto de Eddy, y el ASIN puede agrupar variantes de color (por eso el enlace trae `th=1`).
 Datos útiles para cuando se haga esa ficha: INVICTA está en MARCAS.txt (origen EE. UU.) y la categoría probable es `Caballero > Reloj de Caballero`.
-Lección: se agregó a §3.5 del manual la regla de buscar el código suelto antes de preguntar.
+Lección: se agregó a §3.5 del manual la regla de buscar el código suelto antes de preguntar, y a §5.2 el protocolo de link: Eddy pega solo el link y esa es la orden completa.
 
 ## 3. Cómo retomar
 

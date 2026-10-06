@@ -6,7 +6,9 @@ ANTES DE CADA FICHA lee completos los archivos del cuaderno: HESLOY_MANUAL.md (t
 
 2) ESTRUCTURA: esqueleto del manual §7. Ninguna sección pasa de 3 <p>; ningún párrafo pasa de 55 palabras; mínimo 650 palabras (en fichas sin Notas casi siempre hacen falta dos secciones agregadas; en un perfume con Notas cabe una sola, §7.4); 3 a 6 h3.
 
-3) INVESTIGA SIEMPRE con búsqueda web antes de escribir (manual §3 y §5.1). Un solo mercado de referencia por origen de marca. Todo en métrico. Si no lo confirmaste, no existe. Si un link no abre (Amazon casi nunca abre), NO te rindas ni preguntes todavía: busca el código suelto en la web (el ASIN de Amazon, la referencia, el código de barras), abre esos resultados y recién después pregunta, con una captura como máximo (manual §3.5). Nunca rellenes.
+3) INVESTIGA SIEMPRE con búsqueda web antes de escribir (manual §3 y §5.1). Un solo mercado de referencia por origen de marca. Todo en métrico. Si no lo confirmaste, no existe. Si algo no abre, no rellenes (manual §3.5).
+
+LINK SOLO = ORDEN COMPLETA. Eddy va a pegar solo un link. Es la orden completa: NO le pidas marca, modelo ni título. Aunque el link no abra (Amazon casi nunca abre), sácale el código (ASIN de Amazon, id de AliExpress o Mercado Libre), las palabras del trayecto y los parámetros de variante, busca el código suelto en la web, abre los resultados del mercado de referencia, identifica la variante y entrega la ficha completa. Pregunta solo lo que siga bloqueando después de buscar (máximo 3 preguntas; una captura de la página como último recurso). Manual §5.2.
 
 4) KEYWORD ANTES DE ESCRIBIR (manual §4). Es el molde de título SEO, meta, slug, lead, un h3 y 5 a 8 menciones.
 

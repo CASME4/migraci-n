@@ -38,6 +38,7 @@ Previstas a partir de lo que ya ocurrió en otros cuadernos de Hesloy en Gemini.
 | 19 | Una ficha vieja del chat usada como molde | Se copia un error ya corregido | Nunca. Manda este manual, §14.4 |
 | 20 | Producto parecido, no el mostrado | Se redacta la ficha del modelo hermano (otro color, herraje o esfera) | §5.1: un solo rasgo distinto es otra variante; la imagen de Eddy manda |
 | 21 | Rendirse al primer bloqueo | "No puedo acceder al enlace" y pregunta marca, modelo y título que una búsqueda del código habría dado | §3.5: antes de preguntar, se busca el código suelto (ASIN, referencia, código de barras) |
+| 22 | Preguntar lo que el link ya dice | Eddy pega solo un link y se le piden marca, modelo y título | §5.2: un link solo es la orden completa; el código y los parámetros del link responden eso |
 
 ---
 
@@ -194,7 +195,7 @@ La keyword solo va en minúsculas en el bloque 10. Siglas y marcas en mayúscula
 
 **Solo una imagen.** La imagen manda: es el producto exacto. Se identifica siempre con el protocolo de §5.1 (leer todo, buscar, ir más allá del primer resultado, comparar rasgo por rasgo). Nombrar la variante (Signature, Colorblock, Chain) es parte de identificar. Specs de la fuente, no de la foto. Si no hay certeza: máximo 3 preguntas y te detienes.
 
-**Solo un link.** Ábrelo y extrae todo (si no abre, §3.5). Se traduce el dato, no el tono. Cuidado con títulos de Amazon y AliExpress que mezclan variantes. Contrasta con la oficial: gana la marca. Las reseñas dan los beneficios reales.
+**Solo un link.** Es la orden completa: Eddy lo va a pegar solo, sin foto ni explicación. Se trabaja con el protocolo de §5.2 y se entrega la ficha. Se traduce el dato, no el tono. Cuidado con títulos de Amazon y AliExpress que mezclan variantes. Contrasta con la oficial: gana la marca. Las reseñas dan los beneficios reales.
 
 **Texto de proveedor.** Saca los datos duros, verifica, descarta superlativos, precios, envíos y proveedor. Reescribe todo en la voz de Hesloy.
 
@@ -216,6 +217,27 @@ La imagen que muestra Eddy **es** el producto. Todo lo demás se compara contra 
 **Paso 6. Si no hay certeza.** Máximo 3 preguntas numeradas con los candidatos y el rasgo que los distingue (por ejemplo: "¿La esfera es rosa pastel o blanca?"). Te detienes.
 
 **Paso 7. Dejar rastro.** En VERIFICAR anota los rasgos que no pudiste comparar (por ejemplo: "no se ve el fondo de la caja"). En FUENTES, solo dominios.
+
+### 5.2 Protocolo de link (cuando Eddy pega solo un link)
+Un link solo es una orden completa: **identifica el producto y entrega la ficha.** No se piden marca, modelo ni título: eso es justo lo que el link y la búsqueda responden. Muchos retailers no abren (§3.5); no importa, el link trae el código.
+
+**Paso 1. Sacar del link todo lo que dice.**
+- **El dominio:** dice el marketplace y el mercado (amazon.com es EE. UU.; amazon.es, España).
+- **El identificador del producto:** en Amazon, el ASIN, 10 caracteres después de `/dp/`, `/product/` o `/gp/product/` (por ejemplo `B00962GV2E`). Otros patrones habituales: en AliExpress, el número largo de `/item/…html`; en Mercado Libre, un código tipo `MLM-1234567890`; en eBay, el número de `/itm/`. Son patrones frecuentes, no garantizados: ante dudas, toma el código más largo y único del trayecto.
+- **Las palabras del trayecto:** cuando el link trae el nombre del producto en el texto de la dirección (por ejemplo `Invicta-12847-Specialty`), son marca y modelo ya dados.
+- **Parámetros de variante:** `th=1`, `psc=1`, `color=`, `size=` o similares indican que había una variante elegida. Lo demás es ruido y se ignora: `ref=`, `smid=` (vendedor), `qid=`, `sr=`, `tag=`, `keywords=`.
+
+**Paso 2. Buscar el código suelto,** sin palabras alrededor, y luego con la marca si ya la conoces o `site:` más el dominio del link. Una sola búsqueda suele devolver el título completo, la marca y el modelo.
+
+**Paso 3. Abrir los resultados.** Mercado de referencia primero (§3.2): para una marca de EE. UU., el amazon.com y los retailers de EE. UU. Las páginas de otros países (amazon.es, .co.uk, .fr) y los historiales de precio **sirven para identificar, no para medir:** las medidas y los datos duros salen de un solo mercado.
+
+**Paso 4. Resolver la variante sin foto.** Compara el título y las fotos de las páginas con los parámetros del link y con lo que diga el texto de Eddy. Si el código agrupa varias variantes (color, tamaño) y el link no dice cuál:
+- si el link lleva un parámetro de variante, o las fotos de los resultados coinciden en una sola, sigue con esa y anota en VERIFICAR "variante deducida del link, sin foto";
+- si de verdad hay dos o más candidatas, esa es tu pregunta: nómbralas y di el rasgo que las distingue. Es una de las 3 preguntas, nunca un "mándame la marca".
+
+**Paso 5. Ficha completa.** Con la variante identificada, sigue el flujo normal: confirmación en la oficial (§3.1), keyword (§4), escritura (§6), HTML (§7) y los once bloques (§10). Lo que no se confirmó va a VERIFICAR u OMITIDO.
+
+**Si el código no devuelve nada,** intenta con las palabras del trayecto y con el código de barras si se ve; solo entonces pides **una captura** de la página (§3.5), llevando contigo lo que sí encontraste.
 
 ---
 
@@ -552,6 +574,8 @@ Corrige antes de mandar; no mandes con una nota de que falla.
 32. ¿Abriste al menos 3 páginas y comparaste rasgo por rasgo con la foto de Eddy?
 33. ¿La variante coincide en color, tamaño, herraje, correa o cierre y esfera, y las specs son de ESA variante?
 34. ¿Antes de preguntar o de darte por vencido, buscaste el código suelto (ASIN, referencia, código de barras) en la web?
+35. Si Eddy mandó solo un link, ¿sacaste el código y las palabras del link y entregaste la ficha sin pedirle marca, modelo ni título?
+36. ¿Las medidas salen de un solo mercado y las páginas de otros países solo sirvieron para identificar?
 
 ---
 

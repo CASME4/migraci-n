@@ -12,7 +12,7 @@ El proyecto es una máquina de fichas: recibe un producto y devuelve los once ca
 
 | Pieza | Archivo | Dónde va |
 |---|---|---|
-| Instrucciones (3,779 caracteres) | [`INSTRUCCIONES-CUADERNO-FICHAS.txt`](INSTRUCCIONES-CUADERNO-FICHAS.txt) | Más → Ajustes del cuaderno → Instrucciones |
+| Instrucciones (4,107 caracteres) | [`INSTRUCCIONES-CUADERNO-FICHAS.txt`](INSTRUCCIONES-CUADERNO-FICHAS.txt) | Más → Ajustes del cuaderno → Instrucciones |
 | Fuente 1 · Manual v5 | [`HESLOY_MANUAL.md`](HESLOY_MANUAL.md) | Fuentes |
 | Fuente 2 · Categorías | [`CATEGORIAS.txt`](CATEGORIAS.txt) | Fuentes |
 | Fuente 3 · Marcas | [`MARCAS.txt`](MARCAS.txt) | Fuentes |
@@ -38,7 +38,8 @@ Si Gemini rechaza `.md`, renombra a `.txt` (por ejemplo `HESLOY_MANUAL.md.txt`):
 | Se quitan los ✅ y ❌ de tres tablas (ahora "Sirve / No sirve", "Mal / Bien") | Manual §4.3, §6.4 y §8.3 | Coherencia con la regla de cero emojis (ver diseño abajo) |
 | **La imagen manda:** protocolo de identificación por imagen, nueva falla 20 y 3 puntos más de autochequeo | Manual §5.1, §0 y §13 | Que la ficha sea siempre del producto exacto que Eddy muestra, no de un modelo parecido |
 | **Primero se busca el código, luego se pregunta:** §3.5 reescrita (ASIN, referencia, código de barras), falla 21 y punto 34 del autochequeo | Manual §0, §3.5 y §13; instrucciones 3 | En la primera prueba real Gemini dijo "no puedo acceder al enlace" sin buscar el ASIN, que una sola búsqueda identifica |
-| Autochequeo de 25 a **34 puntos** | Manual §13 | Nueve puntos nuevos: cinco de Gemini, tres de identificación por imagen y uno de búsqueda del código |
+| **Link solo = orden completa:** nuevo protocolo de link (§5.2): saca el código y los parámetros del link, busca el código suelto, resuelve la variante sin foto y entrega la ficha; falla 22 y puntos 35 y 36 del autochequeo | Manual §0, §5.2 y §13; instrucciones | Eddy va a pegar solo links. Gemini no abre Amazon, así que el link se trabaja por su código |
+| Autochequeo de 25 a **36 puntos** | Manual §13 | Once puntos nuevos: cinco de Gemini, tres de identificación por imagen, uno de búsqueda del código y dos de protocolo de link |
 | Nueva sección **14 "Trabajar en Gemini"** | Manual §14 | Archivos, pantalla, conteos, memoria del cuaderno |
 | `escapadas` aclarado como **escape de cadena JSON** | Manual §2 y §10 | Estaba ambiguo (ver sección 4) |
 | Ejemplos de aplicación de categorías | CATEGORIAS.txt | Solo aplican las reglas existentes; no agregan rutas |
