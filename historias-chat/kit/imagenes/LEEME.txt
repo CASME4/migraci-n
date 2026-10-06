@@ -1,0 +1,3 @@
+Aquí van las fotos de los productos para cada video.
+Nombre simple, sin espacios ni acentos: marca-producto.jpg (ejemplo: nine-west-reloj-dorado.jpg).
+Foto limpia, lo más nítida posible. Claude Code las copia a public/img/ del proyecto sin recortarlas.
