@@ -12,7 +12,7 @@ El proyecto es una máquina de fichas: recibe un producto y devuelve los once ca
 
 | Pieza | Archivo | Dónde va |
 |---|---|---|
-| Instrucciones (3554 caracteres) | [`INSTRUCCIONES-CUADERNO-FICHAS.txt`](INSTRUCCIONES-CUADERNO-FICHAS.txt) | Más → Ajustes del cuaderno → Instrucciones |
+| Instrucciones (3,779 caracteres) | [`INSTRUCCIONES-CUADERNO-FICHAS.txt`](INSTRUCCIONES-CUADERNO-FICHAS.txt) | Más → Ajustes del cuaderno → Instrucciones |
 | Fuente 1 · Manual v5 | [`HESLOY_MANUAL.md`](HESLOY_MANUAL.md) | Fuentes |
 | Fuente 2 · Categorías | [`CATEGORIAS.txt`](CATEGORIAS.txt) | Fuentes |
 | Fuente 3 · Marcas | [`MARCAS.txt`](MARCAS.txt) | Fuentes |
@@ -37,7 +37,8 @@ Si Gemini rechaza `.md`, renombra a `.txt` (por ejemplo `HESLOY_MANUAL.md.txt`):
 | **Conteos con margen** | Manual §14.3 | Los modelos cuentan mal de memoria; se apunta al centro del rango |
 | Se quitan los ✅ y ❌ de tres tablas (ahora "Sirve / No sirve", "Mal / Bien") | Manual §4.3, §6.4 y §8.3 | Coherencia con la regla de cero emojis (ver diseño abajo) |
 | **La imagen manda:** protocolo de identificación por imagen, nueva falla 20 y 3 puntos más de autochequeo | Manual §5.1, §0 y §13 | Que la ficha sea siempre del producto exacto que Eddy muestra, no de un modelo parecido |
-| Autochequeo de 25 a **33 puntos** | Manual §13 | Ocho puntos nuevos: cinco de Gemini y tres de identificación por imagen |
+| **Primero se busca el código, luego se pregunta:** §3.5 reescrita (ASIN, referencia, código de barras), falla 21 y punto 34 del autochequeo | Manual §0, §3.5 y §13; instrucciones 3 | En la primera prueba real Gemini dijo "no puedo acceder al enlace" sin buscar el ASIN, que una sola búsqueda identifica |
+| Autochequeo de 25 a **34 puntos** | Manual §13 | Nueve puntos nuevos: cinco de Gemini, tres de identificación por imagen y uno de búsqueda del código |
 | Nueva sección **14 "Trabajar en Gemini"** | Manual §14 | Archivos, pantalla, conteos, memoria del cuaderno |
 | `escapadas` aclarado como **escape de cadena JSON** | Manual §2 y §10 | Estaba ambiguo (ver sección 4) |
 | Ejemplos de aplicación de categorías | CATEGORIAS.txt | Solo aplican las reglas existentes; no agregan rutas |
@@ -72,7 +73,7 @@ Son **estimaciones mías**: el manual ya manda contar de verdad.
 1. **`long_html` del JSON "escapadas".** Entendí escape de cadena JSON (`\"` y `\n`), que es lo que un JSON válido exige. Si en realidad usas otra cosa (por ejemplo entidades `&lt;`), dímelo y lo cambio.
 2. **CATEGORIAS.txt es del 12 ago.** Los conteos (y quizá alguna rama) pueden haber cambiado. Cuando puedas, vuelve a leerlas del sitio.
 3. **MARCAS.txt puede estar desfasado.** No incluye Nine West (el pendiente actual) ni marcas que ya vimos en otros cuadernos: Bharara, Rasasi, Burberry, Jean Paul Gaultier, Armani, Valentino, Dior, Louis Vuitton, Creed, entre otras. Si existen en el sitio, conviene pegarlas con su nombre exacto; si no, saldrán como `NUEVA` y el bloque ACTUALIZAR ARCHIVOS hará el trabajo. La lista está en `MEMORIA.md`, sección 5, marcada como propuesta.
-4. **Gemini y Amazon.** No pude probar si Gemini abre la página del Nine West. Si no la abre, el manual (§3.5) le pide que lo diga y te pida pegar el texto de la página; no rellena.
+4. **Gemini y Amazon.** Confirmado en la primera prueba (6 oct): Gemini no abre los links de Amazon. Por eso §3.5 ahora le manda buscar el ASIN suelto antes de preguntar, y pedir una sola captura si aun así falta algo.
 5. **Primera prueba real.** El pendiente es la ficha del reloj Nine West NW/2098PKRG. Es la mejor prueba del cuaderno porque ejercita todo: variante exacta, marca NUEVA, mercado de EE. UU., categoría por género, HTML, keyword y conteos.
 
 ---

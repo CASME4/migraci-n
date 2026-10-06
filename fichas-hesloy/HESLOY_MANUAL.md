@@ -37,6 +37,7 @@ Previstas a partir de lo que ya ocurrió en otros cuadernos de Hesloy en Gemini.
 | 18 | Markdown dentro del HTML | Asteriscos o negritas en lugar de `<strong>` | Solo las once etiquetas |
 | 19 | Una ficha vieja del chat usada como molde | Se copia un error ya corregido | Nunca. Manda este manual, §14.4 |
 | 20 | Producto parecido, no el mostrado | Se redacta la ficha del modelo hermano (otro color, herraje o esfera) | §5.1: un solo rasgo distinto es otra variante; la imagen de Eddy manda |
+| 21 | Rendirse al primer bloqueo | "No puedo acceder al enlace" y pregunta marca, modelo y título que una búsqueda del código habría dado | §3.5: antes de preguntar, se busca el código suelto (ASIN, referencia, código de barras) |
 
 ---
 
@@ -108,14 +109,16 @@ Métrico, con coma decimal: 8 pulgadas → 20,3 cm · 1,7 lb → 771 g · 1.7 fl
 - Falta un detalle: se omite y va a OMITIDO.
 - Falta algo que bloquea (qué producto es, marca, cero specs): máximo 3 preguntas numeradas y te detienes.
 
-### 3.5 Si una página no abre
-Amazon, AliExpress y varios retailers bloquean a los lectores automáticos. Si no puedes abrir una página:
-1. Dilo en VERIFICAR.
-2. Busca el código de referencia en otras fuentes del mismo mercado (§3.2).
-3. Si con eso no se confirma un dato, va a OMITIDO con el motivo.
-4. Si falta algo que bloquea la ficha, pide a Eddy que pegue el texto de la página, dentro del máximo de 3 preguntas.
+### 3.5 Si una página no abre (y los links de Amazon)
+Amazon, AliExpress y varios retailers bloquean a los lectores automáticos. Que el link no abra **no es un motivo para preguntar**: es un motivo para buscar por otro lado. Orden obligatorio:
 
-Nunca completes con lo que "seguramente" dice la página.
+1. **Busca el código suelto, antes de preguntar nada.** En un link de Amazon, el **ASIN** (los 10 caracteres después de `/dp/`, `/product/` o `/gp/product/`) es una referencia: búscalo solo en la web, sin palabras alrededor, y luego con la marca. Casi siempre una sola búsqueda identifica la pieza y devuelve la misma página en Amazon de otros países, historiales de precio y otros retailers. Lo mismo vale para un código de referencia de reloj o un código de barras.
+2. **Abre esos resultados** (aunque el link original no abra) y compara con la foto o el texto que mandó Eddy (§5.1).
+3. **Un ASIN puede agrupar variantes** (color, tamaño). Confirma cuál es con la foto, el texto del link o el parámetro de variante. Si hay dudas, esa es una de tus preguntas.
+4. **Solo si después de esto algo que bloquea sigue sin confirmarse,** pide **UNA captura** de la página de Amazon (título, viñetas, imágenes y detalles del producto). Una captura se lee mejor que texto pegado. Va dentro del máximo de 3 preguntas, y llevas contigo lo que ya encontraste.
+5. Lo que no se confirmó va a VERIFICAR u OMITIDO.
+
+Nunca respondas "no puedo acceder al enlace" como respuesta final: la respuesta es la ficha, o preguntas concretas **después** de haber buscado. Nunca completes con lo que "seguramente" dice la página.
 
 ---
 
@@ -548,6 +551,7 @@ Corrige antes de mandar; no mandes con una nota de que falla.
 31. ¿Leíste y transcribiste todo el texto visible de la imagen antes de buscar?
 32. ¿Abriste al menos 3 páginas y comparaste rasgo por rasgo con la foto de Eddy?
 33. ¿La variante coincide en color, tamaño, herraje, correa o cierre y esfera, y las specs son de ESA variante?
+34. ¿Antes de preguntar o de darte por vencido, buscaste el código suelto (ASIN, referencia, código de barras) en la web?
 
 ---
 

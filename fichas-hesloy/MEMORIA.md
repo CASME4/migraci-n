@@ -30,6 +30,16 @@ Notas para quien tome la ficha:
 - Marca: **Nine West no está en MARCAS.txt.** Saldrá como `NUEVA`, con el bloque ACTUALIZAR ARCHIVOS. El origen para el mercado de referencia se confirma con una fuente: no se asume.
 - Categoría probable, a confirmar con la regla del género: `Dama > Reloj de Dama`.
 
+## 2.1 Primera prueba real (6 oct 2026)
+
+Eddy envió este enlace de Amazon al cuaderno:
+https://www.amazon.com/-/es/gp/product/B00962GV2E/ref=ox_sc_saved_image_7?smid=A1PIPF90YEORRF&th=1
+
+Gemini respondió que no podía abrir el enlace y pidió marca, modelo, título, texto de la ficha y una imagen. **No buscó el ASIN.**
+Una búsqueda del ASIN `B00962GV2E` lo identifica, según fuentes de terceros, como un reloj **Invicta Specialty 12847** (hombre, caja de 45 mm, cuarzo, correa de silicona azul). **Esto es una pista de identificación, no una spec confirmada:** falta contrastar con la web oficial de Invicta y con la foto de Eddy, y el ASIN puede agrupar variantes de color (por eso el enlace trae `th=1`).
+Datos útiles para cuando se haga esa ficha: INVICTA está en MARCAS.txt (origen EE. UU.) y la categoría probable es `Caballero > Reloj de Caballero`.
+Lección: se agregó a §3.5 del manual la regla de buscar el código suelto antes de preguntar.
+
 ## 3. Cómo retomar
 
 El siguiente trabajo es investigar ese enlace y generar la ficha con las instrucciones y el manual del cuaderno. La documentación existente sigue siendo la referencia para HTML, tono, investigación, SEO y formato de entrega.
